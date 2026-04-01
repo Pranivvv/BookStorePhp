@@ -20,10 +20,10 @@
 
       <div class="box">
          <h3>contact info</h3>
-         <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
-         <p> <i class="fas fa-phone"></i> +111-222-3333 </p>
-         <p> <i class="fas fa-envelope"></i> someone@gmail.com </p>
-         <p> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </p>
+         <p> <i class="fas fa-phone"></i> +91 22 1234 5678 (Mon–Sat, 10am–7pm) </p>
+         <p> <i class="fas fa-phone"></i> +91 98765 43210 (order help) </p>
+         <p> <i class="fas fa-envelope"></i> support@bookstore.example </p>
+         <p> <i class="fas fa-map-marker-alt"></i> Shop 12, Reader's Lane, Bandra West, Mumbai 400050, India </p>
       </div>
 
       <div class="box">

@@ -16,7 +16,10 @@ window.onscroll = () =>{
    accountBox.classList.remove('active');
 }
 
-document.querySelector('#close-update').onclick = () =>{
-   document.querySelector('.edit-product-form').style.display = 'none';
-   window.location.href = 'admin_products.php';
+var closeUpdate = document.querySelector('#close-update');
+if(closeUpdate){
+   closeUpdate.onclick = () =>{
+      document.querySelector('.edit-product-form').style.display = 'none';
+      window.location.href = 'admin_products.php';
+   };
 }

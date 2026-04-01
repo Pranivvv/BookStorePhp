@@ -57,11 +57,12 @@ if(isset($_POST['send'])){
 <section class="contact">
 
    <form action="" method="post">
-      <h3>say something!</h3>
-      <input type="text" name="name" required placeholder="enter your name" class="box">
-      <input type="email" name="email" required placeholder="enter your email" class="box">
-      <input type="number" name="number" required placeholder="enter your number" class="box">
-      <textarea name="message" class="box" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+      <h3>send us a message</h3>
+      <p class="contact-blurb">Ask about orders, delivery, returns, bulk or school purchases—we aim to reply within one business day.</p>
+      <input type="text" name="name" required placeholder="Your full name" class="box">
+      <input type="email" name="email" required placeholder="Your email address" class="box">
+      <input type="number" name="number" required placeholder="Your phone number (10 digits)" class="box">
+      <textarea name="message" class="box" placeholder="How can we help? Include your order number if it is about a purchase." id="" cols="30" rows="10"></textarea>
       <input type="submit" value="send message" name="send" class="btn">
    </form>
 

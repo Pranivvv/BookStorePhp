@@ -52,8 +52,8 @@ if(isset($_POST['add_to_cart'])){
 <section class="home">
 
    <div class="content">
-      <h3>Hand Picked Book to your door.</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
+      <h3>Hand-picked books to your door.</h3>
+      <p>Browse fiction, non-fiction, textbooks, and bestsellers in one place. Fair prices, simple checkout, and orders packed with care.</p>
       <a href="about.php" class="white-btn">discover more</a>
    </div>
 
@@ -99,12 +99,12 @@ if(isset($_POST['add_to_cart'])){
    <div class="flex">
 
       <div class="image">
-         <img src="images/about-img.jpg" alt="">
+         <img src="resources/about/hero-illustration.svg" alt="Books illustration">
       </div>
 
       <div class="content">
          <h3>about us</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
+         <p>Book Store is built for readers who want genuine titles, clear descriptions, and hassle-free delivery. We add new stock regularly and focus on quality from checkout to your doorstep.</p>
          <a href="about.php" class="btn">read more</a>
       </div>
 
@@ -116,7 +116,7 @@ if(isset($_POST['add_to_cart'])){
 
    <div class="content">
       <h3>have any questions?</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
+      <p>Need help with an order, a return, or finding the right book? Send us a message—we usually reply within one business day.</p>
       <a href="contact.php" class="white-btn">contact us</a>
    </div>
 

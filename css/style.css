@@ -140,7 +140,7 @@ section{
    align-items: center;
    justify-content: center;
    gap:1rem;
-   background: url(../images/heading-bg.webp) no-repeat;
+   background: url(../resources/backgrounds/heading-bg.svg) no-repeat;
    background-size: cover;
    background-position: center;
    text-align: center;
@@ -345,7 +345,7 @@ section{
 
 .home{
    min-height: 70vh;
-   background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/home-bg.jpg) no-repeat;
+   background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../resources/backgrounds/home-bg.svg) no-repeat;
    background-size: cover;
    background-position: center;
    display: flex;
@@ -392,7 +392,14 @@ section{
 }
 
 .products .box-container .box .image{
-   height: 30rem;
+   width: 100%;
+   max-width: 100%;
+   aspect-ratio: 2 / 3;
+   height: auto;
+   object-fit: cover;
+   object-position: center;
+   border-radius: .3rem;
+   display: block;
 }
 
 .products .box-container .box .name{
@@ -555,9 +562,13 @@ section{
 }
 
 .authors .box-container .box img{
-   width: 100%;
-   height: 40rem;
+   width: 16rem;
+   max-width: 85%;
+   height: 16rem;
+   margin: 1.5rem auto 0;
+   display: block;
    object-fit: cover;
+   border-radius: 50%;
 }
 
 .authors .box-container .box .share{
@@ -609,6 +620,14 @@ section{
    text-transform: uppercase;
    margin-bottom: 1rem;
    color:var(--black);
+}
+
+.contact form .contact-blurb{
+   font-size: 1.65rem;
+   color: var(--light-color);
+   line-height: 1.65;
+   margin-bottom: 1.5rem;
+   text-align: center;
 }
 
 .contact form .box{
@@ -664,7 +683,15 @@ section{
 }
 
 .shopping-cart .box-container .box img{
-   height: 30rem;
+   width: 100%;
+   max-width: 22rem;
+   aspect-ratio: 2 / 3;
+   height: auto;
+   object-fit: cover;
+   object-position: center;
+   border-radius: .3rem;
+   display: block;
+   margin: 0 auto;
 }
 
 .shopping-cart .box-container .box .name{
